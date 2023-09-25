@@ -4,7 +4,7 @@ import psycopg2
 def get_conn():
     # Establish a connection to the PostgreSQL database
     conn = psycopg2.connect(
-        host="34.171.40.65",
+        host="",
         port="5432",
         database="cexplorer",
         user="postgres",
